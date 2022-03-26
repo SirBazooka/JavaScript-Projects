@@ -1,6 +1,13 @@
-document.getElementById('color').onclick = function changeContent() {
+btn = document.querySelector('button');
 
-    document.getElementById('color').textContent = "Help me";
-    document.getElementById('color').style = "Color: blue";
- 
- }
+function random(number) {
+  return Math.floor(Math.random() * (number+1));
+}
+
+btn.addEventListener('click', () => {
+  const rndCol = `rgb(${random(255)}, ${random(255)}, ${random(255)})`;
+  document.body.style.backgroundColor = rndCol;
+  btn.innerHTML = rndCol;
+});
+
+

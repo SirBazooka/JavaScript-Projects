@@ -1,31 +1,19 @@
 body {
   height: 90vh;
   font-size: 5vh;
-  font-weight: 700;
   font-family: "Courier New", Courier, monospace;
-  /* display: flex;
-  align-items: center;
-  justify-content: center; */
-}
-.sect {
-  height: 90vh;
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.box {
-  height: 15vh;
-  width: 60%;
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  background: red;
-  border-radius: 20px;
-}
 .button {
-  padding: 20px;
-  background-color: #0a0a23;
-  color: #fff;
-  border: none;
-  border-radius: 30px;
+  appearance: none;
+  background-color: white;
+  border: solid black 2px;
+  border-radius: 25px;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+  padding: 15px;
+  font-weight: 900;
 }
